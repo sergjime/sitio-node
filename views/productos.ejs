@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include("./partials/head.ejs") %>
+<body>
+<div class="container">
+    
+        <%- include("./partials/nav.ejs") %>
+    
+        <main>
+                <h1>Productos</h1>
+                <% if(products.length > 0){ %>
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                        </tr>
+                    <% products.forEach(product => { %>
+                        <tr>
+                            <td><%= product.producto %></td>
+                            <td><%= product.precio %></td>
+                        </tr>
+                    <% }) %> </table>
+               <% } else {%>
+                <div class="alert alert-danger" role="alert">
+                    No hay productos
+                  </div>
+                <% } %>
+        </main>
+        <%- include("./partials/footer.ejs") %>
+</div>
+</body> 
+</html>
