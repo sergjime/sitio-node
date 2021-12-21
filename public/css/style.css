@@ -7,8 +7,17 @@ h1 {
 }
 
 main {
-  background-color: lightgray;
+  background-color: white;
+  border-left: gray 1px solid;
+  border-right: gray 1px solid;
   padding: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em;
 }
 
 li a {
