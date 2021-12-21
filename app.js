@@ -15,7 +15,7 @@ const products = [
   { id: 7, producto: "Tableta Digitalizadora", precio: "15€" },
   { id: 8, producto: "Impresora Multifunción", precio: "55€" },
   { id: 9, producto: "Router", precio: "30€" },
-  { id: 10, producto: "Punto de acceeso", precio: "35€" },
+  { id: 10, producto: "Punto de acceso", precio: "35€" },
 ];
 
 app.use(express.static("public"));
