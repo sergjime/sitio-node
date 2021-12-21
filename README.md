@@ -1,8 +1,8 @@
 # Sitio de Node.js
 
-### Arrancaremos el servidor con ```node app``` o ```node app.js``` 
+### Arrancaremos el servidor con `node app` o `node app.js`
 ##### (ya que app.js en el archivo principal del proyecto).
-### Abriremos el navegador con ``` http://localhost:5000 ``` y se abrirá el Home:
+### Abriremos el navegador con ` http://localhost:5000 ` y se abrirá el Home:
 
 ![Página del index](https://github.com/sergjime/sitio-node/blob/master/img/home.png)
 
